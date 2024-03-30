@@ -350,8 +350,8 @@ footer {
 	}
 	
 	.checkbox {
-		height: 100px;
-		width: 100px;
+		height: 80px;
+		width: 80px;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -364,7 +364,7 @@ footer {
 	}
 	
 	.checkbox .trace {
-		width: 50px;
+		width: 30px;
 		height: 2px;
 		background-color: var(--color-pink);
 		position: absolute;
@@ -405,6 +405,7 @@ footer {
 	
 	.menu-items {
 		position: fixed;
+		padding-left: 30px;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -520,30 +521,54 @@ footer {
 		margin: 30px 0 0 0;
 	}
 
-	#mainContact {
-		margin: 50px;
-	}
-	
-	.contact {
-		margin-top: 20px;
-		padding: 5px 25px 0 25px;
-	}
-
-	.contact input {
-		display: flex;
-		align-items: center;
-		width: 90%;
-	}
-
 	.msg {
 		margin: 0;
 	}
 
-	.contact form {
-		padding-top: 30px;
+	.msg textarea {
+		width: 80%;
 	}
 
-	.msg textarea {
-		width: 90%;
+	img {
+		width: 70%;
+		height: auto;
+		max-width: 100%;
+		display: block;
+		margin: auto;
+	}
+
+	.card {
+		width: 300px;
+	}
+
+	#helloWorld {
+		position: fixed;
+		right: 100px;
+		bottom: 150px;
+	}
+
+	.contact {
+		margin: 20px 0 0 0;
+		padding: 20px 0 0 0;
+	}
+
+	form {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 }
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
+

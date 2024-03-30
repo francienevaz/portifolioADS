@@ -12,7 +12,43 @@
 </head>
 <body>
 <div class="container">
-	<header>
+	<header class="headerSmartphone header-wrapper"> 
+        <!-- Cabeçalho -->
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" name="toggle" id="toggle">
+                    <label for="toggle" class="checkbox">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>                
+                <div class="menu"></div>
+                <nav class="menu-items">
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./aboutMe.html">About Me</a>
+                        </li>
+                        <li>
+                            <a href="./degree.html">Academic Background</a>
+                        </li>
+                        <li>
+                            <a href="./projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="./contactMe.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </nav> 
+                </div>
+        </div>           
+        </div>
+            
+    </header>
+	<header class="headerMain">
 		<a class="links" href="./index.html">Home</a>
 		<a class="links" href="./aboutMe.html">About me</a>
 		<a class="links" href="./degree.html">Academic Background</a>
@@ -20,33 +56,34 @@
 		<a class="links" href="./contactMe.html">Contact me</a>
 	</header>
 	<main id="aboutMe">
-		<div style="display: flex; flex-direction: column;">
+		<div>
 			<p id="p" class="line">Olá, eu sou a Fran 🖖🏼!</p>
 			<img src="./img/octocatNote.png" alt="photo-profile">
 		</div>		
 		<div  class="info">
 			<p class="content">
-				Sou uma programadora em construção e estou sempre em busca de criar soluções que tornem meu dia a dia mais fácil e divertido através da programação. Adoro mergulhar de cabeça em projetos provenientes de bootcamps e cursos, onde posso expandir meus conhecimentos e habilidades.
+				Olá! 😁 Sou uma programadora em constante evolução, sempre buscando maneiras de tornar meu dia a dia mais fácil e divertido através da programação. Meus momentos de aprendizado são uma mistura de bootcamps, vídeos no Youtube e cursos, onde posso colocar em prática o que aprendo e assim adquirir novas habilidades.
 			</p>
 			<br>
 			<p class="content">	
-				No momento, estou me aprofundando em análise e desenvolvimento de sistemas, explorando novas maneiras de criar soluções inteligentes e eficazes. Recentemente, tive a oportunidade emocionante de trabalhar como freelancer para uma empresa de energia solar, onde desenvolvi um site super legal! Um dos desafios mais interessantes desse projeto foi criar uma calculadora que destacasse todas as vantagens das placas solares para os clientes. Também coloquei minha criatividade em ação ao criar um filtro estático para a recepção no meu local de trabalho.
+				Recentemente, tive uma experiência incrível trabalhando como freelancer para uma empresa de energia solar. Desenvolvi um site super legal, e um dos desafios mais interessantes foi criar uma calculadora que destacasse todas as vantagens das placas solares para os clientes. Como projeto pessoal, criei um filtro estático para facilitar minha rotina de atendimento aos clientes no local de trabalho, utilizando meus conhecimentos em JavaScript e um toque de criatividade.
 			</p>
 			<br>
 			<p class="content">
-				Você pode encontrar uma variedade de projetos no meu GitHub, onde compartilho minha jornada de aprendizado em programação. Estou sempre experimentando novas linguagens, como Python e Kotlin, mas confesso que meu coração ainda bate mais forte pelo JavaScript.
+				No meu GitHub, você encontrará uma variedade de projetos que refletem minha jornada de aprendizado em programação. Estou sempre experimentando novas linguagens, como Python e Kotlin, mas confesso que meu coração ainda pertence ao JavaScript.
 			</p>
 			<br>
 			<p class="content">
-				Sou movida pela curiosidade e adoro desafios! Sempre fico fascinada com a complexidade das coisas, o que me motiva a explorar e aplicar na prática tudo o que estou aprendendo.
+				Sou movida pela curiosidade e adoro desafios! Sempre me fascino com a complexidade das coisas, o que me motiva a explorar e aplicar na prática tudo o que aprendo.
 			</p>
 			<br>		
 			<p class="content">
-Nos meus momentos livres, busco um equilíbrio entre diversas atividades. Sou uma eterna entusiasta do aprendizado contínuo, então você pode me encontrar estudando, desenhando ou mergulhada em um bom livro. Ah, e não posso esquecer: sou completamente viciada em videogames! No momento, estou totalmente imersa no universo de Zelda Tears of the Kingdom.
+				Nos meus momentos livres, busco equilíbrio entre diversas atividades. Sou uma entusiasta do aprendizado contínuo, então você pode me encontrar estudando, desenhando ou mergulhada em um bom livro. Ah, e não posso esquecer: sou um pouco viciada em jogos! No momento, estou totalmente imersa no universo de Zelda Tears of the Kingdom.
 			</p>
 			<br>
 			<p class="content">
-				Além de tudo isso, sou uma verdadeira apaixonada por animais, e divido meu lar com duas gatinhas adoráveis. Sou casada e tenho formação em Administração de Empresas, embora ainda não tenha tido a oportunidade de seguir essa carreira.
+				Além de tudo isso, sou uma verdadeira apaixonada por animais e divido meu lar com duas gatinhas adoráveis e travessas. 🐱🐱
+				Então é isso!
 			</p>
 		</div>
 	</main>
@@ -54,9 +91,9 @@ Nos meus momentos livres, busco um equilíbrio entre diversas atividades. Sou um
 </div>
 <footer>
 	<div class="footer">
-		<a class="links" href="https://www.github.com/francienevaz" target="_blank"><i class="fa-brands fa-github"></i></a>
-		<a class="links" href="https://www.linkedin.com/in/francienevaz" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-		<a class="links" href="mailto:contatofran.vfraga@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+		<a class="linksFooter" href="https://www.github.com/francienevaz" target="_blank"><i class="fa-brands fa-github"></i></a>
+		<a class="linksFooter" href="https://www.linkedin.com/in/francienevaz" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+		<a class="linksFooter" href="mailto:contatofran.vfraga@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 	</div>
 </footer>
 </body>

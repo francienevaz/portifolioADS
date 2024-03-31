@@ -20,7 +20,7 @@
 body { 
 	background: #eee;
 	color: #222;	
-	font-size: 18px;      
+	font-size: 18px;   
 	}
 
 .container {
@@ -542,9 +542,8 @@ footer {
 	}
 
 	#helloWorld {
-		position: fixed;
-		right: 100px;
-		bottom: 150px;
+		top: 330px;
+		left: 50px;
 	}
 
 	.contact {
